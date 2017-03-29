@@ -1,0 +1,102 @@
+html {
+  background: #eee;
+  overflow-x: hidden;
+}
+#logo{
+	display: block;
+	width: 150px;
+	padding: 10px;
+	margin: 0px auto;
+}
+
+md-card[md-ink-ripple] {
+  position: relative;
+}
+
+.cont{
+	height: 300px;
+	overflow: hidden;
+}
+
+.cont img{
+	width: 100%;
+	min-height: 100%;
+}
+
+md-input-container{
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+
+md-card{
+	max-width: 900px;
+	margin: 10px auto;
+}
+
+md-content{
+	display: block;
+	background-color: #eee;
+	min-height: 500px;
+	width: 100vw;
+	overflow-y: auto;
+}
+
+md-tabs-canvas{
+	background: steelblue;
+}
+
+.md-tab .ng-scope{
+	color: white;
+}
+
+md-toolbar{
+	height: 10em;
+	text-align: center;
+}
+
+md-toolbar h2{
+	display: block;
+	font-style: italic;
+	font-weight: 100;
+}
+
+body {
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+
+#ban{
+	width: 100vw;
+	height: 50vh;
+	background-color: steelblue;
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+.scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+.scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, rgb(122,153,217)),
+									   color-stop(0.72, rgb(73,125,189)),
+									   color-stop(0.86, rgb(28,58,148)));
+}
